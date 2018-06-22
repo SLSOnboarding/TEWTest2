@@ -1,0 +1,26 @@
+{  
+   "comment": "More information on TEW JAM: https://jam4.sapjam.com/wiki/show/UFKzGv6i81yui7orPvmwtQ",
+   "collections":[  
+      {  
+         "collectionName":"AltiscaleBigDataService",
+         "folders":[  
+            {  
+               "startingFolderPath":"[root]/**",
+               "sourceFilters":[  
+                  "dev.json"
+               ],
+               
+			    "excludedSourceFilters":[  
+                  "**/*_en_US.json"]
+            }
+         ]
+      }
+   ],
+   "defaultConfiguration":{  
+      "xlfFolderPath":"/XLF/[FullPath]",
+      "targetFolderPath":"./target/[FullPath]",
+      "pseudoLocFolderPath":"./2Q/[FullPath]",
+	  "oneQFolderPath":"./1Q/[FullPath]",
+	  "targetFileNamingConvention":"[filename]_[langCode].[extension]"
+   }
+}
