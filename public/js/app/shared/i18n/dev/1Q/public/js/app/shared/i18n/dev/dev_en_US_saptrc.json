@@ -1,0 +1,924 @@
+{
+
+	//XFLD
+	"en": "r6gmDGp8d+eshprqusmn0w_English",
+	//XFLD
+	"de": "nNPIfyn4is5CJYj5Fc6zrw_German",
+	//XFLD
+	"fr": "1HRKvBFiPZBBqc4gPMDCWA_French",
+	//XFLD
+	"es": "RV4q085PhjnLP0kqECCY3w_Spanish",
+
+	//XFLD
+	//-------------------------------------------------
+	// Global
+	//-------------------------------------------------
+	//XBUT
+	"YES": "/yu3yE3bXaikwxgTmDXhQA_Yes",
+	//XBUT
+	"NO": "CCWaIqLdVNxqKXiLP1BV0A_No",
+
+	//XFLD
+	//-------------------------------------------------
+	// Cart
+	//-------------------------------------------------
+
+	//XBUT
+	"BACK_TO_CHECKOUT": "XEqVsb8Pkfy3HNAE4ack3Q_Back to checkout",
+	//XFLD
+	"CANCEL": "/9jPiHJ5MBhLC14TKIIZJA_Cancel",
+	//XBUT
+	"CHECKOUT": "WGlMZ1i3bkEwCKBeeoPQ1g_Checkout",
+	//XBUT
+	"CONTINUE_SHOPPING": "kROiDeJeHFdrNzbbXVv5VA_Continue shopping",
+	//XBUT
+	"SHOP": "4Tm5bGi/pVCEet0tuEAwlQ_Shop",
+	//XFLD
+	"NOTE": "O1yHsHBtEbRN3xbP38aHQQ_Note",
+	//XFLD
+	"ADD_NOTE": "VxibF2EkQc09yBwj8DylrA_Add Note",
+	//XFLD
+	"EDIT_NOTE": "REw7VYYN4whQECNkj5c5Lw_Edit Note",
+	//XFLD
+	"DELETE_NOTE": "1eu/lIVDQM287X2fLmj1fA_Delete Note",
+	//XMSG
+	"UNABLE_TO_SAVE_NOTE": "bUCSdmZ38qL+LGhMbwH8oQ_Unable to save note",
+	//XFLD
+	"EST_ORDER_TOTAL": "NB2eriZwA4B9YEgvzRVVTQ_Est. order total",
+	//XFLD
+	"PREVIEW_ORDER": "0R6zwQMrzxmEaz/9gjegrw_Preview Order",
+	//XFLD
+	"PAYMENT_REVIEW": "xAf5vL6WuaI6liGDhd8LEA_Payment & Review",
+	//XFLD
+	"PLEASE_CORRECT_MESSAGE_ERRORS": "hZGW7natcJxucXYZ93Q/aA_Something went wrong, please try again",
+	//XFLD
+	"FREE_SHIPPING": "0sAY5MRoC9OsglPz0tDUVA_Free Shipping and Returns in the US",
+	//XFLD
+	"ITEM": "uQAS82gp6AdZScX+JQf3aQ_Item",
+	//XFLD
+	"ITEM_PRICE": "d9ULsnfp4Z5lGAsaFovUOA_Item Price",
+	//XFLD
+	"TOTAL_PRICE": "HBZVAY3WOhSYW9ezsp5vNQ_Total Price",
+	//XMSG
+	"CART_UNAVAILABLE": "sPzYpTAKl1J52KT/YOzhOg_The cart is currently unavailable. Please try again.",
+	//XMSG
+	"CART_EMPTY": "G+C9oKfae0eXoHHN7e7oiA_Your cart is empty",
+	//XMSG
+	"CART_ITEM_UPDATE_ERROR": "JBuPj+jScb/2JtvPUlbZ0w_The update was not successful. Please try again.",
+	//XFLD
+	"ESTIMATE_TAX": "zIb2GLviP43hlQgDHKdEdQ_Estimate Tax",
+	//XFLD
+	"APPLY": "m4431BhIrU13grUJL2HVZg_Apply",
+	//XFLD
+	"ESTIMATE_TAX_ERROR": "sDO/GPkOfbqtjJMRB3Z/0w_Zip/Postal Code and Country Code fields are required",
+	//XMSG
+	"ADDITIONAL_SHIPPING_OPTIONS": "7r3lm6giXDYqWJkZl3z+hA_Additional shipping options are available in checkout.",
+	//XMSG
+	"SELECT_A_COUNTRY": "co0xkLry5CzaLjQP2BdrqA_Select a country",
+
+	//XFLD
+	//-------------------------------------------------
+	// Checkout
+	//-------------------------------------------------
+
+	//XFLD
+	"ADDRESS": "yOYrV7tzR5iLb+j07e/Zkg_Address",
+	//XFLD
+	"ADDRESS_LINE_1": "qxiZof9Gqe5VAMw06QjE+w_Address Line 1",
+	//XFLD
+	"ADDRESS_LINE_2": "f0mVcGnAUabgq1LaY9BQRQ_Address Line 2",
+	//XGRP
+	"CANT_BE_SHIPPED": "A0ZBiCdmmJ0mGOmQnSV7qw_Items cannot be shipped to this location",
+	//XGRP
+	"BILLING_ADDRESS": "sVxqh3kdHqKvTc8Yuj44aA_Billing Address",
+	//XFLD
+	"CITY": "Z/HfJx1FJ+x5cdkIrrvTdA_City",
+	//XFLD
+	"PROVINCE": "0dn8XFM1pl1XNMzDt2OA7w_Province",
+	//XBUT
+	"CONTINUE": "oIyoiVk+Vw7JdzKFE7aCEA_Continue",
+	//XBUT
+	"COST": "GkjFK9+DUzMpA3b2CGsXbQ_Cost",
+	//XFLD
+	"COUNTRY": "1xJOfcQzagyuOhIl5qwAJA_Country",
+	//XFLD
+	"CREDIT_CARD_NUMBER": "hUa88oAaFM+zizaBGhI0/g_Credit Card Number",
+	//XFLD
+	"CVC_NUMBER": "Dhwso6J+NcFoh8X19P6bSw_CVC Number",
+	//XFLD
+	"DELIVERY_METHOD": "+U5DLDarwEUYhATD0z+VCQ_Delivery Method",
+	//XFLD
+	"EMAIL": "bQRjjuqW8IYgXaLsc8qXMw_Email",
+	//XBUT
+	"EDIT": "J4S3Lpjdk3U/RR6Ae1yS1g_Edit",
+	//XFLD
+	"FIRST_NAME": "Xxt45ahk+SEWWgK13VlqYA_First Name",
+	//XLST
+	"FREE_STANDARD_SHIPPING": "vGnJ/u3uUN+B7jcmnc6SHg_Free Standard Shipping",
+	//XLST
+	"FLAT_RATE_SHPPING": "+/MkeZVRwa1/hpkgIBFarQ_Flat Rate",
+	//XMSG
+	"INVALID_EXPIRATION_DATE": "p9OJvdYCeCPwwLVhnTyI3g_Invalid Expiration Date",
+	//XFLD
+	"ITEMS": "xiugOQp2PfmOo70kdCJkEw_Items",
+	//XFLD
+	"LAST_NAME": "yTpZ6H6TvZHVIJg7ZUSGhQ_Last Name",
+	//XFLD
+	"LAST_NAME_REQUIRED": "8CxoWftJ6YqFp7dMZgq62A_Last Name Required",
+	//XFLD
+	"METHOD": "Kt/X3jYBJeDmmiBYJsbOCg_Method",
+	//XFLD
+	"MIDDLE_NAME": "k9dgqvMw2FT4YIwmaQwkwg_Middle Name",
+	//XFLD
+	"MONTH": "kvDlrcjH7XpB6xhMK54AHQ_Month",
+	//XFLD
+	"NAME": "8VwaoGrD+P1dGowDSXWP/g_Name",
+	//XMSG
+	"NO_ITEMS_IN_CART": "aUwKjSevPMyNEZ+dDeX51w_There are no items in your cart.",
+	//XACT
+	"OPTIONAL": "2frzvUGV6sxGc2/I8ebSMQ_Optional",
+	//XGRP
+	"ORDER_DETAILS": "tTOVtrfEywVeHOKvgTaE7A_Order Details",
+	//XFLD
+	"ORDER_DATE": "vSRKX6qBTxYDTce282gO+Q_Order Date",
+	//XMSG
+	"ORDER_PENDING": "1mG2iWBE7s5e1eavLGuFQQ_One moment... Placing your order",
+	//XFLD
+	"ORDER_TOTAL": "xhrozLL2bGJEhWmJ9qz+Bw_Order Total",
+	//XFLD
+	"PAYMENT": "GnCLTN8cUDh+yeyZKZyvvg_Payment",
+	//XMSG
+	"PHONE_REQUIRED": "fu/4NUcW0ihB9+tKB2EqDQ_Phone Required",
+	//XBUT
+	"PLACE_ORDER": "FFqyfFgV3KLPUQf6T5NKvg_Place Order",
+	//XFLD
+	"PLACED_AT": "HASGn/g9zM1jlocFornMjg_Placed At",
+	//XMSG
+	"PLEASE_CORRECT_ERRORS": "zWOFbYfNKrvzYrPreqBBlw_Please correct the errors above before placing your order.",
+	//XMSG
+	"PLEASE_CORRECT_ERRORS_PREVIEW": "rUxcKx+w0h74Or1L/Z++3A_Please correct the errors above before previewing your order.",
+	//XMSG
+	"PLEASE_CORRECT_ERRORS_ADDRESS": "AOpgc9CGgTyayYEq+1786g_Please correct the address details before previewing your order.",
+	//XMSG
+	"PLEASE_ENTER_VALID_CC": "lCPXiOymW5hKi8hj+0TVqw_Please enter a valid credit card number",
+	//XMSG
+	"PLEASE_ENTER_VALID_CODE": "hixZZOCadNnkl+AQ145gGQ_Please enter a valid code",
+	//XMSG
+	"PLEASE_ENTER_VALID_EMAIL": "tI7C1yVYluywHTbN2vt1UQ_Please enter a valid email in the format name@example.com",
+	//XACT
+	"REQUIRED": "NsSt17PmLymuFkBx6fKExg_Required",
+	//XCKL
+	"SAME_AS_SHIPPING_ADDRESS": "iuIXPNnDQRpGoeA14gfLKA_Same As Shipping Address",
+	//XTIT
+	"SECURE_CHECKOUT": "Z/DND5A5JH7ZWFlnXpmCcg_Secure Checkout",
+	//XBUT
+	"SELECT_FROM_ADDRESS_BOOK": "a2hgsIo8AggoLWdu+RQY6A_Select from address book",
+	//XBUT
+	"ADDRESS_BOOK": "FNZ5NQWj5lCrPtWRV3gm9w_Address Book",
+	//XFLD
+	"SHIPPING": "+EuMYS3pPxHGOfjiNzQQhw_Shipping",
+	//XGRP
+	"SHIPPING_ADDRESS": "HRLCZEqrIElmGpCqoWriGA_Shipping Address",
+	//XGRP
+	"SIMPLE_3_STEP_CHECKOUT": "mb8r7PImfczTuauHxCZelw_Simple 3 Step Checkout",
+	//XGRP
+	"SIMPLE_4_STEP_CHECKOUT": "y/6j9lLW44qWqPO9oO/3vg_Simple 4 Step Checkout",
+	//XFLD
+	"STATE": "1gOz35fmVtXFaV0fc4A0MA_State",
+	//XGRP
+	"STEP_1_MY_DETAILS": "wt/t07RMVJlY9VRd+TcbxA_Step 1. My Details",
+	//XGRP
+	"STEP_2_BILLING_INFORMATION": "YpJDqAdOq1j/xI9/cFa9/A_Step 2. Billing Information",
+	//XGRP
+	"STEP_3_PAYMENT": "9G0OsPviLi9knNHTdEzg+A_Step 3. Payment",
+	//XGRP
+	"STEP_4_REVIEW_ORDER": "ejTsiiZxZwznGkm9u3ygzA_Step 4. Review Order",
+	//XFLD
+	"SUBTOTAL": "F/tGv5eZYBy5mk4JbEQKBg_Subtotal",
+	//XFLD
+	"DISCOUNT": "3h55balgWtv6TiMUKWJERA_Discount",
+	//XFLD
+	"TAX": "abQrZFoDp5KI7UF4U//w5Q_Tax",
+	//XFLD
+	"TOTAL": "oTzHvCQbANKY/ppuS0Hb8Q_Total",
+	//XFLD
+	"YEAR": "MxtdQu1NbyPSYrdvlU22Ew_Year",
+
+	//XFLD
+	//-------------------------------------------------
+	// Addresses
+	//-------------------------------------------------
+
+	//XFLD
+	"DEFAULT": "6xixsYahv3xgL8Cvpu1xYw_Default",
+	//XFLD
+	"DISTRICT": "dq0w3QpVbRI4K953zML0eQ_District",
+	//XFLD
+	"STREET_NAME": "ciwcobBcQgFVA4102lx9Ig_Street Name/ Number",
+	//XFLD
+	"BUILDING_NAME": "dT6PDXKFwcoALCr3POlPKA_Building Name/ Number",
+	//XFLD
+	"ROOM_NUMBER": "zSqBtta1OWbl9Jeg9BgNfQ_Room Number",
+	//XFLD
+	"PREFECTURE": "NTf6ZU9smK8j1ZSE4cZmzw_Prefecture",
+	//XFLD
+	"POSTAL_CODE": "+ZF7pJ+eKyHlJV48XSFeag_Postal Code",
+	//XFLD
+	"ZIP": "URigxCqK3YlUuTygSrZnXg_Zip/ Postal Code",
+	//XFLD
+	"CITY_VILLAGE": "mjrh5bynus8IacbHLInNrg_City/ Village/ City Ward",
+	//XFLD
+	"SUBAREA": "rGfpf+f3l92nNi08AcoT4Q_Subarea",
+	//XFLD
+	"FURTHER_SUBAREA": "Dy1nrTB9yf7Xo1GeMWG+2A_Further Subarea, Block #/ House #",
+
+	//XFLD
+	//-------------------------------------------------
+	// Coupons
+	//-------------------------------------------------
+
+	//XBUT
+	"COUPON_APPLY": "A6UnLgab3+F4WjHLPMcIBA_Apply",
+	//XFLD
+	"COUPON_APPLIED": "C4zjOqvHGy1PzbuAp5dgHQ_Applied",
+	//XFLD
+	"COUPON_NOT_APPLIED": "OYecbBnKEg2Cg9rWgIZFzA_Not Applied",
+	//XLNK
+	"COUPON_CODE": "LdeZ0mFNvpMHyG5jEW6Wdw_Add Coupon Code",
+
+	//XMSG
+	"COUPON_NOT_ACTIVE": "XFpRaWj/ZPtRgRkb4As9Yg_The coupon is not active",
+	//XMSG
+	"COUPON_EXPIRED": "4EwXgUna7YyWDBElIlSDRA_The coupon is not active",
+	//XMSG
+	"COUPON_REDEMPTIONS_EXCEEDED": "y1CBCP5xaTBGk/+oZNj2eA_Coupon has reached maximum number of redemptions",
+	//XMSG
+	"COUPON_REDEMPTION_FORBIDDEN": "0UqsqzT/UXZWtZAo3qqzCQ_Current customer is not allowed to redeem the coupon",
+	//XMSG
+	"COUPON_ORDER_TOTAL_TOO_LOW": "Mrqnki+rVu4N3OvL+sdumA_The order value is too low for this coupon",
+	//XMSG
+	"COUPON_CURRENCY_INCORRECT": "aPMkzuaPX54bMtB292M2nw_Currency inconsistent with coupon",
+	//XMSG
+	"COUPON_DISCOUNT_CURRENCY_INCORRECT": "7SwrEg8GVstceP0HFVps6A_Discount currency invalid inconsistent coupon",
+	//XMSG
+	"COUPON_DISCOUNT_AMOUNT_INCORRECT": "4NV+ojXTpkZiBFl3Y7cJ0w_Discount amount exceeds allowed coupon discount",
+
+	//XMSG
+	"COUPON_ERROR": "mzgXkOblSCQ22WMEi0DpEQ_Coupon not valid.",
+	//XMSG
+	"COUPON_ERR_CURRENCY": "rQPQMKsfUdDuA9D8eriXkg_Currency invalid with coupon",
+	//XMSG
+	"COUPON_ERR_ANONYMOUS": "R3DAC5RNRoTvmUcGob31pA_Sign in to use coupon code",
+	//XMSG
+	"COUPON_ERR_UNAVAILABLE": "jEsdJkQNxD05obpvIOZqQA_Coupon no longer available",
+	//XMSG
+	"COUPON_MINIMUM_NOT_MET": "sXx7052BrZ8reXEIB7eO2Q_Current order total does not meet the required minimum for this coupon",
+	//XMSG
+	"COUPON_NOT_VALID": "vpq2bwe2lh/qq+CPEJQU0w_Coupon Not Valid",
+	//XTIT
+	"COUPONS": "ZE/7CeHolCNa5d4OtTArOg_Coupon Code",
+	//XMSG
+	"ADD_COUPON_CODE": "MGw8NA3/flUEykBpqjoPdw_ADD COUPON CODE",
+
+	//XFLD
+	//-------------------------------------------------
+	// Confirmation
+	//-------------------------------------------------
+
+	//XMSG
+	"A_COPY_OF_YOUR_ORDER_DETAILS_HAS_BEEN_SENT_TO": "NqPTJFFosj56XnkCL63ocQ_<p class=\"orderEmailedTo\">A copy of your order details has been sent to <strong>{{emailAddress}}</strong></p>",
+	//XMSG
+	"ENJOY_YOUR_ITEMS": "67gQWmiYm+9ntCS8IBfWZQ_Enjoy your items!",
+	//XMSG
+	"FOR_YOUR_ORDER": "9PWuRIevL7i2eC7KYS+wTg_for your order!",
+	//XMSG
+	"ITEM_IN_YOUR_ORDER": "s/aAEXRoub/l7OR4tnH+TA_Item in your order",
+	//XMSG
+	"ITEMS_IN_YOUR_ORDER": "ukRfUICTV09275So06oIOA_Items in your order",
+	//XMSG
+	"QUESTIONS": "qObxKJT3CikcdU+9mkNk8Q_<p class=\"support-box\">If you have any questions, contact us at <strong>{{contactInfo}}</strong>.</p>",
+	//XFLD
+	"ORDER": "eHgbsePi6U1TNdmycY/IAg_Order",
+	//XBUT
+	"RETURN_TO_SHOPPING": "bhkCV4p0Zb4kCEYKuhKJrg_Return to shopping",
+	//XMSG
+	"SUCCESS": "CTb7Dh3lK2RBy8X41Ygw0g_Success!",
+	//XMSG
+	"ACCOUNT_SUCCESS": "QXFGNidpTO3ArEjsAHI/fA_Your account was successfully created!",
+	//XMSG
+	"THANK_YOU": "rhirAsbvJA+BomXhC2Y88A_Thank you",
+	//XMSG
+	"THANK_YOU_FOR_YOUR_ORDER": "6A9EhymDqoGdbKp1Izm8hw_Thank you<br />for your order!",
+	//XMSG
+	"THE_SHIPMENT_IS_SCHEDULED_TO_ARRIVE_AT_THE_FOLLOWING_LOCATION": "hvOMssxHTg2lG24XH6CidQ_The order will be shipped to",
+	//XMSG
+	"YOUR_ORDER_IS": "68B7/LOnmW4JoyPao7tg1w_Your order // is ",
+	//XMSG
+	"ONE_MORE_STEP": "Q6bZl3+WxhLCmzum9RnM3Q_One More Step to Create an Account for a <strong>Fast Checkout</strong> and <strong>Easy Access</strong> to Previous Orders",
+	//XFLD
+	"SKU": "3jXuWXViaNZJ8XWJCJmPbw_SKU",
+	//XMSG
+	"YOUR_CHECKOUT_HAS_BEEN_ACCEPTED_ORDER_NOT_CREATED": "dnY+EVk5YVwwlWI3EXdO0A_Your checkout has been accepted, but the order has not been created. For tracking purposes, please use the following checkout ID number: ",
+	//XMSG
+	"YOUR_ORDER_WILL_BE_CREATED": "4KYvaqQzKZfrq7l9JqQeHw_Your order will be created as soon as possible.",
+
+	//XFLD
+	//-------------------------------------------------
+	// Navigation
+	//-------------------------------------------------
+
+	//XFLD
+	"PRODUCTS": "tIRZoPOSEiHURb64gdEBWw_Products",
+	//XBUT
+	"BACK_TO": "ZT+ekzLypv8gHh9Sirno6g_Back To",
+	//XFLD
+	"REGION": "F5n20CXDV7l1bzf7jau9CQ_Region",
+
+	//XFLD
+	//-------------------------------------------------
+	// Product Detail Page
+	//-------------------------------------------------
+
+	//XFLD
+	"SHIPPING_INFORMATION": "QW7lWpVI9J8ONI/Slhz2lg_Shipping information",
+	//XFLD
+	"SHIPPING_ZONE": "8VtWlbk7NkYwWqaXwU5T8Q_Shipping Zone",
+	//XFLD
+	"STANDARD_SHIPPING": "0wCnm94QwXkWAuPDExPlRA_Standard Shipping",
+	//XFLD
+	"SHIPPING_RATE": "bTYDN+52p2p8vIe+2kFECg_Shipping Rate",
+	//XFLD
+	"ZONE": "6qSHXefgIY7+NGd5J83jXA_Zone",
+
+	//XBUT
+	"BUY": "7TdKdu89GUg+jtxG6whZJA_Buy",
+	//XBUT
+	"ADD_TO_CART": "EP+1UmVxM2ucqcWxyoxa3Q_Add to Cart",
+	//XMSG
+	"PRODUCTS_ADDED_TO_CART": "fj346AnUsjSiFDKgu9j6SQ_product(s) successfully added to your cart",
+	//XTIT
+	"PRODUCT_DESCRIPTION": "XCG+5x8wZc2bB3IMTRczlA_Product Description",
+	//XTIT
+	"PRODUCT_DETAILS": "3The7PowIc+g8dSOu8iEMg_Product Details",
+	//XBUT
+	"OUT_OF_STOCK": "UA3OZYsO0/4txeoy2EtrLA_out of stock",
+	//XBUT
+	"UNAVAILABLE": "QeCp38gBcy46SXmrh+DnHA_Unavailable",
+	//XFLD
+	"QTY": "/z17vOsLZCzBs/d9+5xjLA_Qty",
+	//XMSG
+	"INCLUDES": "ntXNvmsRw30U7Ufa6Hhc/w_Includes",
+	//XMSG
+	"DESTINATION_COUNTRY": "ltTgKw/4GRcz387yv8tQqA_Destination country(s)",
+	//XMSG
+	"NO_LIMIT": "XrxcSOvCSax135rkrblMEA_No Limit",
+	//XMSG
+	"ERROR_ADDING_TO_CART": "OTyPOpqRnCJ+7vMDwDCITA_Add to Cart was not successful.  Please try again.",
+
+	//XTBS
+	"DESCRIPTION_TAB": "TpnA8uxjvt4KZB+NE3ePiQ_Description",
+	//XTBS
+	"DETAILS_TAB": "ZgOla9ukEiF5Xc27ijtWZg_Details",
+	//XBUT
+	"MORE": "7oPC5lVqtgu51mDKRIipqQ_More",
+
+	//XFLD
+	//-------------------------------------------------
+	// Product List Page
+	//-------------------------------------------------
+
+	//XLST
+	"NEWEST": "pC1i/pRmZG7pC7NPouvL6A_newest",
+	//XFLD
+	"OF": "/HDLy+ujkjSTBvS7FNDF4g_of",
+	//XLST
+	"PRICE_HIGH_LOW": "GPvrdSiM8X9v5QBLy2FCVA_price high - low",
+	//XLST
+	"PRICE_LOW_HIGH": "vC8tBEXKYtytX9Dfr6V6Pw_price low - high",
+	//XLST
+	"NO_PRICE": "t09WjFBD7Se2ljKKY+6DvA_No Price",
+	//XFLD
+	"SORT_BY": "o4V9HsWfv1OqIx04fliP+A_Sort by",
+	//XFLD
+	"VIEWING": "omWTAKaOdfc4+jMf/iDVpQ_Viewing",
+	//XFLD
+	"PRODUCTS_FROM_TO": "Qa/MjhjBnPPN7s4q0fHtqA_<div>{{productsFrom}}-{{productsTo}} of {{total}}</div>",
+	//XFLD
+	"ALL_PRODUCTS": "Hq92iOLc14Ni7YA4UtoAxA_All Products",
+	//XTIT
+	"EMPTY_MSG": "1/8i0wFfOCKuHtM9T3ajMg_Demo Store - Coming Soon",
+	//XFLD
+	"LANGUAGES": "BOEpvgn8jfHc5DFnlQBAJg_Languages",
+	//XFLD
+	"SELECT_LANGUAGE": "PsAg8goYOmrqM8G/EPHfLQ_Select a language",
+	//XBUT
+	"SIGN_OUT": "GGQuNr+I1KuGj7Es1s4yVg_Sign Out",
+	//XBUT
+	"SIGN_IN": "c9UOwsaovdzTA444rIRDhA_Sign In",
+	//XBUT
+	"SIGN_IN_WITH_FACEBOOK": "yNjNjxeE2NbS7d7bD7t9zw_Sign in with Facebook",
+	//XBUT
+	"LOG_IN_WITH_GOOGLE": "yLRHt8KKvRn0LmDw93rctQ_Sign in with Google",
+	//XBUT
+	"MY_ACCOUNT": "O/rN6eg4lEgdl27DM9YPWQ_My Account",
+	//XBUT
+	"CREATE_ACCOUNT": "ixm/ctKXgOwfVdkGRKWxdA_Create Account",
+	//XBUT
+	"CONTINUE_AS_GUEST": "+p0EP/fa1yYdQQvqPp9GfA_Continue as our guest",
+
+	//XFLD
+	//-------------------------------------------------
+	// Account Page
+	//-------------------------------------------------
+
+	//XTIT
+	"UPDATE_ACCOUNT_DETAILS": "NhGlV0atXTpqWrX+/kBDDw_Update Account details",
+	//XTIT
+	"UPDATE_EMAIL": "njVMq3RnViMLiuPd1XmJLQ_Update Email",
+	//XBUT
+	"ADD": "+TA3VCcE4OWVrN6exQtk/g_Add",
+	//XFLD
+	"REGION_PREFERENCES": "cxXADN0pBpiV/XnmE3lVmA_Region Preferences",
+	//XFLD
+	"NEW_EMAIL": "QW3UAtD+/dmEAuSdm+fS4w_New Email",
+	//XFLD
+	"CURRENT_EMAIL": "qEwVe9ynu/Wkhhx79GZI2Q_Current Email",
+	//XGRP
+	"ADDRESSBOOK": "lkGZmsc+1hnQEiIjFSeySQ_Addressbook",
+	//XMSG
+	"NO_ADDRESSES": "Zw9p9Hn1jzdQr1LFOWgNqA_You have no addresses stored!",
+	//XMSG
+	"FAIL_ADDRESSES": "HJGv2o8XmnKTxPQn/behNw_Addresses not available. Try again later.",
+	//XBUT
+	"ADD_ADDRESS": "j0S0AaPKHvv7FJErX8/aTw_Add Address",
+	//XBUT
+	"CLOSE": "MlCaGmHzsG7b4TyfyMcuGg_Close",
+	//XFLD
+	"COMPANY_NAME": "JNWl5UoOt0CDok/ScJ2ZIA_Company",
+	//XTIT
+	"CONFIRM_DELETE_ADDRESS_TITLE": "FRdsC7U3M7SHhuUsHsqhAw_Delete Address",
+	//XMSG
+	"CONFIRM_ADDRESS_REMOVAL": "U2tXrjCa2AYY1g1rQHm+Ow_Are you sure you want to delete this address?",
+	//XTIT
+	"CONFIRM_ORDER_CANCEL_TITLE": "ESqOXe5Xram9fYiLNmZTCA_Cancel Order",
+	//XMSG
+	"CONFIRM_CANCEL_ORDER": "8HXycs5/0mKPkSTPiTapcw_Are you sure you want to cancel your order",
+	//XFLD
+	"FULL_NAME": "78x3EQVLwO8Rg/o/6vV3Dw_Full Name",
+	//XFLD
+	"CONTACT_PHONE": "I8TnCoTR/DVBZsjoKG5mqw_Phone",
+	//XFLD
+	"FAIL_CUSTOMER_DETAILS": "l7fY8jsnplwXT7610dm5tw_Customer details not available. Try again later.",
+	//XFLD
+	"DATE": "fA8tvdq4UTJAeRAdiIt0RQ_Date",
+	//XMSG
+	"NAME_REQUIRED": "ePV8qHD+c3rzgG9dZY5hAA_Name Required",
+	//XFLD
+	"STREET": "jo34z0VE4WXJkh67YaaP2A_Street",
+	//XFLD
+	"STREET_NUMBER": "97Sojr9uxN9hMUatVM9O5Q_Street Number",
+	//XTIT
+	"WELCOME": "E1DSuNrDEA1tML4J+BF04Q_Welcome",
+	//XFLD
+	"NOT_SET": "jBbL3vS+BcWqUUXu+Y+h+A_Not Set",
+	//XGRP
+	"ORDER_HISTORY": "zPQ8/574WEKEEc3ft9/8tQ_Order History",
+	//XFLD
+	"ORDER_NUMBER": "NpangUiBlXyujeGuswEKEA_Order Number",
+	//XFLD
+	"ORDER_STATUS": "PxUPcRxBZiG2PgH1pjZOnA_Order Status",
+	//XFLD
+	"ORDER_CANCEL": "r9H+oVzY929f7Qis927g9g_Cancel Order",
+	//XFLD
+	"ORDER_CANCEL_ERROR": "Z3dAYCOA8KAdFvmmWMp6Sw_Cancelation failed, please contact customer service or try again later",
+	//XFLD
+	"FAIL_ORDER": "xszAlP1sMABmckQHu3WUow_Orders not available. Try again later.",
+	//XFLD
+	"NO_ORDERS": "NxFPECaykA60/+T8lCotrg_You have no orders stored",
+	//XSEL
+	"ORDER_ITEM_COUNT": "GoW69PmoHtT2XCowOTyOJg_{{number}} Item",
+	//XSEL
+	"ORDER_ITEMS_COUNT": "JLQ/u5eaB4YX4DQpihiQhA_{{number}} Items",
+
+	//XFLD
+	"SHIPPING_DETAILS": "FOCUUfpDj9ZB9RORWMVU4A_SHIPPING DETAILS",
+	//XBUT
+	"SAVE": "dcL84CYyfCSLiel5XLqXwA_Save",
+	//XBUT
+	"SUBMIT": "on/6YInkv5FWWnSzhNtMlA_Submit",
+	//XBUT
+	"UPDATE_PASSWORD": "FmcpfK/UVj5r4xSQ0ajqcA_Update password",
+	//XBUT
+	"CURRENT_PASSWORD": "y848nUXiWGHMenouV/hjHA_Current password",
+	//XBUT
+	"NEW_PASSWORD": "Q13Ik816B+/gZbdthB8bkw_New password",
+	//XMSG
+	"CONFIRM_NEW_PASSWORD": "EErgpplM1nrEZYVerVXNQw_Confirm new password",
+	//XMSG
+	"PASSWORDS_NO_MATCH": "ztHgpWO6TV9AgvtXa/VQbA_Passwords do not match",
+	//XMSG
+	"WRONG_CURRENT_PASSWORD": "BVJhNnuBpkjI127utdP8Pw_Please provide correct current password!",
+	//XMSG
+	"PASSWORD_TOO_SHORT": "lqjVDzyS94e+JCocQlriNg_Password too short",
+	//XBUT
+	"DELETE_ACCOUNT": "R2ChHuOjlcwFdL8c3x/AZQ_Delete Account",
+	//XMSG
+	"DELETE_ACCOUNT_MSG": "njbd9x1ezrW2wHSqJevHAg_Are you sure you want to delete your account including all your account information and order history? In addition, if you have any orders still in process, they will no longer be linked with your account.",
+	//XMSG
+	"DELETE_ACCOUNT_CHECK_EMAIL_MSG": "hegXFjGBjkXLhuMwmwjrWw_... and follow the link to confirm you want to delete your account. The link will be valid for 24 hours.",
+	//XTIT
+	"ACCOUNT_DELETED": "lRDeTpL0wChSjZa3TlgYyw_Account Deleted",
+	//XTIT
+	"ACCOUNT_NOT_DELETED": "DmwzwpqMLQcxz2ijj1WSeA_Account Not Deleted",
+	//XMSG
+	"ACCOUNT_DELETED_MSG": "OR99GTH9llvAx+IkiT5pGw_Your account has been successfully deleted",
+	//XFLD
+	"SHOW_ALL": "xigQHBj27WWlUOXpam6acg_Show all",
+	//XFLD
+	"SHOW_LESS": "un7E+BnXZdoWO9rkoe0jmA_Show less",
+	//XFLD
+	"ITEMS_IN_ORDER": "ai7a0ZbZR0UYgMYt7Dg32g_Items in Order",
+	//XMSG
+	"SAVE_ADDRESS_ERROR": "AMI1uw8gQesDoSaPkPYqHw_An error occured and updates not saved. Save updates.",
+	//XMSG
+	"REMOVE_ADDRESS_ERROR": "M5ZOyINBMwVP7048UqN9pw_Deleting address failed. Please try again.",
+	//XMSG
+	"UPDATE_DEFAULT_ADDRESS_ERROR": "GURvlkE7fX7a4DJrCeV7uw_Updating default address failed. Please try again.",
+
+	//XTIT
+	"EDIT_EMAIL_UPDATED": "P6MltiRmvoJYKmQ4OumPMw_Your email is being updated...",
+	//XTIT
+	"EDIT_EMAIL_SUCESSFULLY_UPDATED": "GjyM6tWTWGHxPnPHbsyMkA_Email sucessfully updated",
+	//XMSG
+	"EDIT_EMAIL_CHANGED_MSG": "8E6fJf/4jyRWQK4TW6bujg_Your email has changed. You must sign in with your updated email",
+
+	//XMSG
+	"OOPS_MSG": "I91uyv0kfrtUk5cdJnZTOw_Oops!",
+	//XMSG
+	"EDIT_EMAIL_CHANGE_FAILED": "DYJ6DCmFTrqhhQSkh1oFpg_Something went wrong. Please reset your email again",
+
+	//XBUT
+	"RESET_EMAIL": "x7Btmy2pPgckxCtUdAxdZg_RESET EMAIL",
+
+	//XMSG
+	"EDIT_EMAIL_PASSWORD_NOT_CORRECT": "XPoZeVOd5n9eD5lJo7cj8Q_Password is not correct. Try again",
+	//XMSG
+	"EDIT_EMAIL_ALREADY_IN_USE": "UuwJKkbxCcYxdh8YFoW6FQ_This email is already in use. Try again",
+	//XMSG
+	"EDIT_EMAIL_SOMETHING_WENT_WRONG": "fNx1sctFBYg7BT+WeK4NIA_Something went wrong. Try again",
+
+	//XFLD
+	//-------------------------------------------------
+	// Login, password, signup
+	//-------------------------------------------------
+
+	//XBUT
+	"FORGOT_PW": "waNr1elx4bKpI9+GTl52Uw_Forgot your password?",
+	//XFLD
+	"PASSWORD": "4LCykBPEH50WIIivji7ujw_Password",
+	//XACT
+	"PASSWORD_MINCHAR": "cdm0N2iuu6r/JM3fAq6FCg_Min. 6 characters",
+	//XBUT
+	"CONFIRM_PASSWORD": "84D4v1aPsysf5jX0TSUaWQ_Confirm Password",
+	//XFLD
+	"TOKEN": "lsVGmIsr11RJ2aNkYe0kFw_Token",
+	//XBUT
+	"RESET_PASSWORD": "RuHGINrilCbaTEYQJKZhlg_Reset Password",
+	//XGRP
+	"RESET_PW_TITLE": "ywx1Lh87eQxvqBOBlDqCjQ_Reset Your Password",
+	//XMSG
+	"RESET_PW_INSTRUCT": "7hl+YpBJSr/CrnqgF3Iwrw_Please create a new password.",
+	//XMSG
+	"FORGOT_PW_INSTRUCT": "vZTauQsEgR82sJmwsxGLNg_Please enter your account email address below.  An email will be sent to you with a link to reset your password.",
+	//XMSG
+	"REQUEST_PW_EXPIRED": "wsVJv/1ZErJhKJsatGc4KA_Reset Password Request Expired",
+	//XMSG
+	"REQUEST_PW_EXPIRED_MSG": "3ptaiMyGuQwTaP0yT+2CKA_The request to reset your password has expired. Please enter your email to make a new request.",
+	//XMSG
+	"CHECK_EMAIL": "oGU5VMSs7K+57ilOymrUog_Check Your Email",
+	//XMSG
+	"CHECK_EMAIL_INSTRUCT": "pZcbuUbD2T5dX1Msdarx4A_...and follow the link to reset your password. The link will be valid for 24 hours.",
+	//XMSG
+	"CHECK_EMAIL_INSTRUCT_CHANGE_EMAIL": "MwqsiBEJaAfE24J8vA1FIw_...and follow the link to confirm change of your email. The link will be valid for 24 hours.",
+	//XMSG
+	"COOKIES_ENABLED_ERROR": "fh37u2zmhWsfvEPYww3geg_Cookies must be enabled in your browser to sign in. To find out more, see the Help or Preferences area of your browser. Once enabled, sign in.",
+	//XMSG
+	"CREATE_ACCOUNT_ERROR": "KuyGVnOXlDFQ0GKB4BS9Xw_Customer account was created successfully, but cookies must be enabled to login. To find out more, see the Help or Preferences area of your browser. Once enabled, sign in.",
+	//XMSG
+	"PASSWORD_REQUIRED": "tzwwv1s+k2kunucwqxVWng_Password with 6 character minimum required.",
+	//XMSG
+	"PASSWORDS_MUST_MATCH": "2v3iw5OoGs/JpJRvN2dY0A_Passwords must match.",
+	//XMSG
+	"PW_SUCCESS": "dwVQ5bHOi4euRnLFuf7UnQ_Success",
+	//XMSG
+	"PW_CHANGED_MSG": "PVU40zUGo8ELoeCvATXqXQ_Your password has been reset. You can now sign into your account.",
+	//XMSG
+	"INVALID_TOKEN": "ypzLGjQ4d/gaHIM+4jo/NA_This reset-password link is no longer valid.  Please request a new one.",
+	//XMSG
+	"PW_CHANGE_FAILED": "2Vv/Pz2djJmmkxObdWMdOQ_Update of password failed.",
+	//XMSG
+	"RESET_PW_REPEAT": "k7biGcmJ4PSho2NgidBmMg_Request another reset-password link.",
+	//XACT
+	"FIELD_REQUIRED": "iebc/JUbJpJYgKhvJqnokQ_Field is required!",
+	//XACT
+	"FIELD_TOO_SHORT": "Unlj4NxclhIQ/S4ShMBf5A_Field too short!",
+	//XACT
+	"FIELDS_NOT_MATCHING": "/3JNOJSjeGjdfhGskGBARQ_Fields not matching!",
+
+	//XMSG
+	"SERVER_UNAVAILABLE": "kldIHM+db4MItUbCuMjyLA_Server is unavailable, please try again later.",
+	//XMSG
+	"INVALID_CREDENTIALS": "CSjSMvKG0RCWCJIEXJsfOw_You entered an invalid email or password.",
+	//XMSG
+	"PASSWORD_INVALID": "D+sAV/6MHD/KWdLXEF+A0g_Password invalid - minimum of 6 characters required.",
+	//XMSG
+	"ACCOUNT_LOCKED": "h2s13aK/W1sARtagjOyCRg_Account has been locked due to excessive number of invalid login attempts. Please wait 5 minutes and try again.",
+	//XMSG
+	"ACCOUNT_ALREADY_EXISTS": "9R4Ii++NSjKY8DfYSs+ssQ_Email address already in use for existing account.",
+	//XFLD
+	"FORGOT_PASSWORD": "1+GAGWM0KjfnU+pUOaULDA_Forgot password?",
+	//XMSG
+	"EMAIL_NOT_FOUND": "d/XdJ8uEbKi3P+8logzA6A_There is no account associated with that email address.",
+	//XACT
+	"ENTER_EMAIL": "KAMfnMyhVi6SyTNLku6Gfw_Enter Email",
+	//XMSG
+	"ENTER_EXISTING_EMAIL": "f7mEV+wnLUvpiEoZZGzWKQ_Enter the email address of an existing account",
+	//XMSG
+	"LOGIN_FAILED": "haLg5gpNcEP+X9fDTyuoww_Login failed",
+
+	//XFLD
+	"ACCOUNT_EMAIL": "qs5tSobNofkXP5hhjJRwXg_Account Email",
+
+	//XFLD
+	//-------------------------------------------------
+	// Dynamic Error Displays
+	//-------------------------------------------------
+
+	//XMSG
+	"ERROR_TITLE": "d9V3aK5FIdrQqd6Z2LFFKw_Internal Error",
+	//XMSG
+	"ERROR_MESSAGE": "mi8Eoih5rV3iqwSX9HmZOQ_Oops! There's a problem.",
+	//XMSG
+	"ERROR_TITLE_401": "x+gKSUTH/IXG7PJeKwY6pg_Unauthorized",
+	//XMSG
+	"ERROR_MESSAGE_401": "tzesXyvtT4IMDYErow/v9Q_Oops! There's a problem. Your login credentials don't allow access to this page.",
+	//XMSG
+	"ERROR_TITLE_404": "x1gJqo1t2wqo4mD5S0S20A_Page not found",
+	//XMSG
+	"ERROR_MESSAGE_404": "RVXk3VXGqDWR+XVxoYc4rQ_Oops! There's a problem. This page doesn't exist.",
+	//XMSG
+	"ERROR_REDIRECT": "InGq2SqACkUt9rBUC2lJ0w_Here is a page to help you get back on track.",
+	//XBUT
+	"ERROR_BUTTON_TEXT": "7QHXdz1mf6tv78eVFZp8hg_HOMEPAGE",
+
+	//XFLD
+	//-------------------------------------------------
+	// Titles
+	//-------------------------------------------------
+
+	//XACT
+	"DR": "97dkaZ9E6GgTxtPjGhQETA_Dr.",
+	//XACT
+	"MR": "7dpjQ9d2rW5da+YGgttB6A_Mr.",
+	//XACT
+	"MRS": "kxz2QPsK3mwMBA8HnZ7VNw_Mrs.",
+	//XACT
+	"MS": "ZFGj7yRTld9493LfjXnUpA_Ms.",
+	//XACT
+	"TITLE": "DUQEsuKl9fpaxwRCHZIzjg_Title",
+
+	//XFLD
+	//-------------------------------------------------
+	// Order Statuses
+	//-------------------------------------------------
+
+	//XSEL
+	"COMPLETED": "XpBHWPUEDz8P8v4mMT/TxA_Completed",
+	//XSEL
+	"CONFIRMED": "ssnyZujquZ58crnDTUB5vQ_Confirmed",
+	//XSEL
+	"CREATED": "9NJNizhgUu4c4JqwuxhzKw_Created",
+	//XSEL
+	"DECLINED": "n4VKzuBUL7PrvC/Ool4A0w_Declined",
+	//XSEL
+	"SHIPPED": "fZtO5pT7FBimEYKzandI0g_Shipped",
+
+	//XFLD
+	//-------------------------------------------------
+	// Order Details
+	//-------------------------------------------------
+
+	//XFLD
+	"CREDIT_CARD": "JADA5+xP2L48PkLm7gTzDQ_Credit Card",
+	//XFLD
+	"ON": "vsmnNNV+G8l5Z/I5c7rqTg_on",
+	//XFLD
+	"QUANTITY": "YZp3H2h/5BkLYI0N3GtN8Q_Quantity",
+	//XFLD
+	"SHIPPED_BY_ON": "93D8PEEv+mETfiwQtxgoLQ_Shipped by: <span><b>{{carrier}} on {{shippedDate}}</b></span>",
+	//XFLD
+	"TRACKING_NUMBER": "UqSugxeTPJ2uPitpsz4E5w_<span>Tracking Number: {{trackingNumber}}</span>",
+
+	//XFLD
+	//-------------------------------------------------
+	// Search
+	//-------------------------------------------------
+
+	//XFLD
+	"FOUND_FOR": "Yd3V0ZWTW0r5dkHMp5HlnA_<strong>{{total}}</strong> found for <strong>{{searchString}}</strong>",
+	//XACT
+	"SEARCH": "Df4wLkSCywKd7Zbb/2DsXQ_Search",
+	//XFLD
+	"SEARCH_SUPPORT": "Yz9onjcWQXDK8kgtcyZ6GQ_Support Search",
+	//XFLD
+	"SEARCH_RESULTS": "W7FpAbKAB92VwLipFQ5Hbg_Search results",
+	//XFLD
+	"MOST_RELEVANT": "2A3F8wQUT0eDX0cmjPRPrQ_Most Relevant",
+	//XGRP
+	"RESULTS": "1nrRlcX0ZUGxw+Lf6ca+lg_Results",
+	//XLNK
+	"SEE_ALL": "LYSZ8yFMdV3rS9dWJ6OWww_See All",
+	//XMSG
+	"SEARCH_UNAVAILABLE": "HA0WXCHlczmm8H5B+eCzxg_Search is currently unavailable.",
+	//XMSG
+	"NO_RESULTS_FOUND": "87EOIcrV+I0hTWJm9AlNEA_No results found.",
+	//XFLD
+	"IN": "/yNDvAs2YIucMryGQLj/sQ_in",
+
+	//XFLD
+	//-------------------------------------------------
+	// Service Tickets and Support Page
+	//-------------------------------------------------
+
+	//XFLD
+	"SERVICE_TICKET_DETAILS": "FajpLnjLsP8M2YY1clL/IA_Service Ticket Details",
+	//XFLD
+	"SERVICE_TICKET_ID": "fyn/laVUWXqHMn3/KuM0dg_Service Ticket Id",
+	//XFLD
+	"SERVICE_TICKET_DESCRIPTION": "lECVz4Onw39FcMUpiwK/pQ_Description",
+	//XFLD
+	"SERVICE_TICKET_TYPE": "N4e3XZFyrML4a6CSuDgsbg_Type",
+	//XFLD
+	"SERVICE_TICKET_STATUS": "Z1O1sgIwLm/ZHoYXYtnulQ_Status",
+	//XFLD
+	"SERVICE_TICKET_CREATE": "id+cG51GTmCDyenZ2jQ42Q_Create Service Ticket",
+	//XFLD
+	"PRODUCT_ID": "4gOqQSOiqW670JmEBu8yPA_Product Id",
+	//XFLD
+	"PRODUCT": "i71Q+sY4AQZ2bhu4bDT4Lg_Product",
+	//XFLD
+	"PRODUCT_NAME": "ysRy/PhF0PKXQPYxBeV3XQ_Product Name",
+	//XFLD
+	"CONFIRM": "71QRswfI18xKjNBlucKqEA_Confirm",
+	//XFLD
+	"UPDATE": "1vJfKL4k4rwvVFwa6DF81g_Update",
+	//XGRP
+	"MY_PRODUCT_REGISTRATIONS": "txQMiqpVHwOoidkvC15Acg_My Product Registrations",
+	//XGRP
+	"MY_SUPPORT_TICKETS": "J3KMAswrJhgdH9XlUkusmQ_My Support Tickets",
+	//XFLD
+	"SUGGESTED_POSTS": "URBEstX3Ap3vUbCBS8hH6Q_Suggested Posts",
+	//XMSG
+	"SERVICE_TICKET_CONFIRMED_SUCCESS": "PIv60SeDWdKMJTUn1L2+0w_Service Ticket Confirmed successfully",
+	//XMSG
+	"SERVICE_TICKET_UPDATED_SUCCESS": "oCinlUbR42NhO+2sdOhxcw_Service Ticket Updated successfully",
+	//XFLD
+	"SERVICE_TICKET_NUMBER": "7feeeODTjzN3pFIOSCiQMA_Ticket Number",
+	//XMSG
+	"SERVICE_TICKET_CONTINUE_CONFIRM": "zfXKZPF8FJIJjYfdqJrCWQ_Do you want to continue to create the ticket?",
+	//XFLD
+	"CONFIRM_YES": "QidPJJ1YYZKAnQ4SdodrCA_Yes",
+	//XFLD
+	"CONFIRM_NO": "6Sh1Eq3PeDCU6lRAYGZ8FA_No",
+
+	//XFLD
+	//-------------------------------------------------
+	// FOOTER
+	//-------------------------------------------------
+
+	//XFLD
+	"TERMS_AND_CONDITIONS": "FS1bwjoQ3GXewPRMcV+prQ_Terms & Conditions",
+	//XFLD
+	"CONTACT_US": "rAq2J4ImfvjGeoxANFcMAQ_Contact Us",
+	//XFLD
+	"SITE_MAP": "K5t+lnGvOedoPkMssmA5Dg_Site Map",
+
+	//XFLD
+	//-------------------------------------------------
+	// My Product Registrations
+	//-------------------------------------------------
+
+	//XLNK
+	"VIEW_COMMUNITY_POSTS": "nl9JATt7io9NM3mQtcjrpQ_View Community Posts",
+	//XFLD
+	"SERIAL_NUMBER": "li/UmrINGnHs4YICve2SOQ_Serial Number",
+	//XFLD
+	"DATE_PURCHASED": "PjFNf3m7PbwLREyhPdSrJg_Date Purchased",
+	//XFLD
+	"DATE_CREATED": "ziwgCFNlkQ6LlDRvh5NVWA_Date Created",
+
+	//XFLD
+	//-------------------------------------------------
+	// My Support Tickets
+	//-------------------------------------------------
+
+	//XLNK
+	"MY_OPEN_SERVICE_TICKETS": "OTigReQJFCCtvwOknTJvbw_My Open Service Tickets",
+	//XLNK
+	"MY_CLOSED_SERVICE_TICKETS": "X4xCq1kEEwSDIqr0225sRg_My Closed Service Tickets",
+	//XFLD
+	"SERVICE_TICKET_MODIFIED_AT": "okfAPFowrQnHGFRlK7O10w_Modified at",
+
+	//XFLD
+	//-------------------------------------------------
+	// Support Chat
+	//-------------------------------------------------
+
+	//XFLD
+	"CHAT_HELP_LINE_1": "V0FeaDZN9w+cK65MeP9IkQ_Running into issues?",
+	//XFLD
+	"CHAT_HELP_LINE_2": "lmebFX/kwPPoh87nAmcy6A_We're here to help.",
+	//XFLD
+	"CHAT_HELP_LINE_3": "HQBC2yeiXTFv+/JHhn0y0A_Whether you need information about a new product, help installing the one you just bought, or simply support using it to its fullest, do not hesitate to reach out. Our experts are available 24/7 via chat, video chat, and phone, and look forward to connecting with you.",
+	//XBUT
+	"TEXT_CHAT": "pbOM5p9318K5ZaWsj14lUA_TEXT CHAT",
+	//XBUT
+	"VIDEO_CHAT": "5qI64Dae+/2weEJAOGbM7A_VIDEO CHAT",
+
+	//XFLD
+	//-------------------------------------------------
+	// Support (Main Landing Page)
+	//-------------------------------------------------
+
+	//XTIT
+	"SUPPORT": "K+SbYrxW6+3vPHcRFkK7oQ_Support",
+	//XLNK
+	"VIEW_PRODUCT_DETAILS": "7njIK49V0ZudIqL56++EuQ_View Product Details",
+	//XLNK
+	"SUPPORT_HEADLINE_LINE_1": "mNIHxpUBhJ+NqVknCPLRdA_Our support page provides the tools and information needed to help you quickly find and resolve most common issues.",
+	//XBUT
+	"SUPPORT_HEADLINE_LINE_2": "UhL0lsmZd59qblyBB2ljOw_Contact us at any time if you are unable to find the answer to your questions.",
+	//XBUT
+	"SUPPORT_REGISTER_PRODUCT_LINE_1": "KIO6+ezkanWzHlBh+GTdlQ_Register",
+	//XBUT
+	"SUPPORT_REGISTER_PRODUCT_LINE_2": "Ik5nhItIuz6ao+pIiPrjzA_Product",
+	//XBUT
+	"SUPPORT_CREATE_TICKET_LINE_1": "1H0X+BUlxkG/UqkjYRsyGg_Create",
+	//XBUT
+	"SUPPORT_CREATE_TICKET_LINE_2": "/Q7mFX1LgdzlKHADR8sE8A_Support Ticket",
+	//XBUT
+	"SUPPORT_CONTACT_AGENT": "9dvI2Jut1yDLhWbnTlrvQQ_Contact Agent",
+	//XBUT
+	"SUPPORT_MY_ORDERS": "gtIiNKaM4MsQLAE+DOeBnQ_My Orders",
+	//XBUT
+	"SUPPORT_MY_REGISTRATIONS_LINE_1": "w+Xx5/8uOwEKCqpaHQhknA_My",
+	//XBUT
+	"SUPPORT_MY_REGISTRATIONS_LINE_2": "MawVWFk/4BCNPgGRjwfw4A_Registrations",
+	//XBUT
+	"SUPPORT_MY_TICKETS_LINE_1": "6tqcTtmyt5KUtH5boYlhcw_My",
+	//XBUT
+	"SUPPORT_MY_TICKETS_LINE_2": "oscmJ5LvaZ2Df6cXc5GKug_Support Tickets",
+	//XBUT
+	"COMMUNITIES": "o7pqO0GvMIbXnfZDV6DaxQ_Communities",
+
+	//XFLD
+	//-------------------------------------------------
+	// Register New Product
+	//-------------------------------------------------
+
+	//XFLD
+	"REGISTER_NEW_PRODUCT": "xTenHYpbFNruB/ijOF265A_REGISTER NEW PRODUCT",
+	//XFLD
+	"PURCHASED_AT": "OWlOmyAHJm33P5rtEBxs2w_Purchased At",
+	//XFLD
+	"PURCHASED_DATE": "3qy8TsonRwerhwZBXaK/Xg_Purchased Date",
+	//XBUT
+	"REGISTER": "BXayffKOjbvA5l6/buZA5w_Register",
+	//XMSG
+	"SELECT_PRODUCT_ERROR": "pmTm89L6+BVeguO2tmAymA_Please select a product first",
+	//XMSG
+	"SELECT_REGISTERABLE_PRODUCT_ERROR": "7jvpmQ13BySBJLTTJwb1lg_Please select a product that can be registered. The current selected product cannot be registered",
+	//XMSG
+	"VALID_SERIAL_ERROR": "gSn3eAHPLIFdlXEOACY87w_Please enter a valid serial number",
+	//XMSG
+	"VALID_DATE_ERROR": "A6BnfMA2Ib4zNoRtJHirWA_Please enter a valid date",
+	//XMSG
+	"PRODUCT_REGISTERED_SUCCESS": "VkYLe0LXTKnP7vH49n4EJA_Product Registered successfully",
+	//XMSG
+	"PRODUCT_SUPPORT_ID_ALREADY_EXISTS": "nfOmOhmLzbYkudSLMzwumw_Product Registration Failed: Serial Number already exists",
+	//XMSG
+	"PRODUCT_REGISTERED_FAILURE": "oZqG5PBybvmtvrbriVZ5LQ_Product Registration Failed",
+	//XMSG
+	"SERVICE_TICKET_CREATION_SUCCESS": "dTbXQJ0XN79FqUBSc4rMTw_Service Ticket Created Successfully",
+	//XMSG
+	"INTERACTION_LOG_FAILURE": "ydfBsz8WPLxaSX1whAQOgA_Interaction Log creation failed",
+	//XMSG
+	"SERVICE_TICKET_CREATION_FAILURE": "cBb8XEdZdiaZD41fb2vhnA_Service Ticket creation failed",
+	//XMSG
+	"AUTHENTICATION_FAILURE": "FZsu62kA5PRRZGHgXQOhUg_Authentication Failure",
+	//XMSG
+	"SERVICE_TICKET_CONFIRMED_FAILURE": "rHF3+I+mQD81960okO1QOg_Service Ticket confirmation failed",
+	//XMSG
+	"SERVICE_TICKET_UPDATED_FAILURE": "qgler+Jvwboe6A7paX+4jg_Service Ticket update failed"
+
+}
